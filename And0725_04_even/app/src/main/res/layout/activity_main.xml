@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edt_first"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="시작값/가용포인터 기준"
+        android:inputType="numberDecimal"/>
+    <EditText
+        android:id="@+id/edt_last"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="끝값/현재 가지고 있는 포인터"
+        android:inputType="numberDecimal"/>
+    <Button
+        android:id="@+id/btn_Evensum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="짝수의 합 구하기"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/btn_Point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가용 포인트(사용 가능한 포인트) 계산"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과 값 출력: "
+        android:textColor="#F62727"
+        android:textSize="17dp"/>
+
+</LinearLayout>

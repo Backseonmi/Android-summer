@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[백선미]메뉴정리"
+        android:background="#DAD6EC"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:gravity="center"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="2">
+
+        <TextView
+            android:gravity="right"
+            android:text="이름"
+            android:textSize="20dp"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:hint="이름을 입력하세요"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:text="전화번호"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:hint="010-0000-0000"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:text="성별"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:hint="남자 / 여자"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"/>
+    </GridLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가입"
+        android:textSize="20dp">
+    </Button>
+
+</LinearLayout>

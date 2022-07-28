@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="학년"
+        android:textSize="15dp"/>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:orientation="horizontal"
+        android:layout_width="0dp" android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/btnSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2학년">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/btnThird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3학년">
+        </RadioButton>
+    </RadioGroup>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_margin="5dp"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content" android:text="확인"/>
+        <Button
+            android:id="@+id/btnCancle"
+            android:layout_margin="5dp"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content" android:text="취소"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/chk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼 활성화"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="버튼"/>
+
+</LinearLayout>

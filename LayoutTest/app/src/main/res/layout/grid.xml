@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount = "2"
+    android:columnCount = "3">
+    <Button android:text="View1"
+        android:layout_width = "0dp"
+        android:layout_columnWeight = "1"
+        android:layout_rowSpan = "2"
+        android:layout_gravith = "fill_vertical"
+        android:layout_margin = "5dp"/>
+    <Button android:text = "View2"
+        android:layout_margin = "5dp"/>
+    <Button android:text = "View3"
+        android:layout_margin = "5dp"/>
+    <Button android:text = "View4"
+        android:layout_margin = "5dp"/>
+    <Button android:text = "View5"
+        android:layout_margin = "5dp"/>
+
+</GridLayout>

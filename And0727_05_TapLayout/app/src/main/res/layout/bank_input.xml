@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#43B2E1D7"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입금 금액 : "
+        android:textSize="30dp" />
+    <EditText
+        android:id="@+id/edtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="입금할 금액 입력"
+        android:inputType="numberDecimal" />
+    <Button
+        android:id="@+id/btnInputOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 입금 하기 "
+        android:textSize="20dp" />
+</LinearLayout>

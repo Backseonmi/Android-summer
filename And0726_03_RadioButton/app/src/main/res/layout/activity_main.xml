@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="좋아하는 아이돌 그룹은?"/>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rad_ITZY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="있지"/>
+        <RadioButton
+            android:id="@+id/rad_bts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="방탄"/>
+        <RadioButton
+            android:id="@+id/rad_revelt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="레드벨벳"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_vote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="투표"
+        android:textSize="20dp"/>
+
+
+
+
+</LinearLayout>
