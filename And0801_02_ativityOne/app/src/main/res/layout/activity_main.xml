@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdo_Second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second 액티비티"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/rdo_Third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Third 액티비티"
+            android:textSize="20dp"/>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/edtContent"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="넘겨줄 내용 입력하기"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_New"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새 화면 열기"
+        android:textSize="20dp"/>
+
+</LinearLayout>

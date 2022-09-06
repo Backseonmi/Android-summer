@@ -1,36 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TableLayout
-        android:background="#D8DEE6"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#D8DEE6"
         android:stretchColumns="*">
+
         <TableRow>
+
             <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="right"
                 android:text="이름 : "
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:textSize="20dp"
-                android:gravity="right"/>
+                android:textSize="20dp" />
+
             <EditText
+                android:id="@+id/edtName"
                 android:layout_width="0dp"
                 android:layout_weight="2"
-                android:id="@+id/edtName"/>
+                tools:ignore="SpeakableTextPresentCheck" />
         </TableRow>
+
         <TableRow>
+
             <TextView
-                android:text="전화번호 : "
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:textSize="20dp"
-                android:gravity="right"/>
+                android:gravity="right"
+                android:text="전화번호 : "
+                android:textSize="20dp" />
+
             <EditText
-                android:layout_weight="2"
+                android:id="@+id/edtTel"
                 android:layout_width="0dp"
-                android:id="@+id/edtTel"/>
+                android:layout_weight="2"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
         </TableRow>
     </TableLayout>
 
